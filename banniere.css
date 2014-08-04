@@ -1,0 +1,10 @@
+/* Bannière au-dessus de chaque page */
+
+header#logo{
+color: white;
+background: url(images/logo_site.png) no-repeat, url(images/maison.png) no-repeat;
+background-position: left, right;
+background-size: 160px, 80px;
+width:100%;
+height:100px;
+}

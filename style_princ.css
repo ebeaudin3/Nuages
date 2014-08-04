@@ -1,0 +1,79 @@
+/* Mise en forme du texte */
+
+
+@font-face {
+	font-family: 'learningcurvepro';
+	src: url('font/learningcurvepro/LearningCurve_OT-webfont.eot')
+	src: url('font/learningcurvepro/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('font/learningcurvepro/LearningCurve_OT-webfont.woff') format('woff'),
+         url('font/learningcurvepro/LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('font/learningcurvepro/LearningCurve_OT-webfont.svg#learningcurvepro') format('svg');
+}
+
+/* On applique la même police à tout le texte */
+*
+{
+	font-family: trebuchet MS, serif;
+	color: black;
+}
+
+body
+{
+	background-image: url("images/nuages.jpeg");
+	background-attachment: fixed;
+}
+
+h1
+{
+	text-align: center;
+	text-shadow: 0 0 40px Blue;
+}
+
+h2
+{
+	color: DodgerBlue;
+}
+
+#intro
+{
+	text-align: center;
+}
+
+#tdm
+{
+	text-align: left;
+}
+
+.connaissances
+{
+	color: MidnightBlue ;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: blink;
+}
+
+.image
+{
+	text-align: center;
+}
+
+a, a:visited
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	font-weight: bold;
+}
+
+section
+{
+	border: 2px solid wheat ;
+	background-color: Ivory;
+	border-radius: 20px;
+	width: 90%;
+	padding: 3%;
+	
+}
+

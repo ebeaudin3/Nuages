@@ -1,0 +1,40 @@
+/* On applique la même police à tout le texte */
+*
+{
+	font-family: 'learningcurvepro', trebuchet MS, serif
+}
+
+h1
+{
+	color: white;
+	text-align: center;
+	text-shadow:3px 3px 3px black;
+	/*color: white;*/
+}
+
+h2
+{
+	color: DodgerBlue;
+}
+
+.def
+{
+	text-align: justify;
+	/*color: green;*/
+}
+
+.image
+{
+	align: "center";
+}
+
+body
+{
+	background-color: LightSkyBlue;
+	color: black;
+}
+
+.fleche
+{
+	align: right;
+} 
