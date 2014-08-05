@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html>
-	<header id="logo">
+	<a href="Page_principale.html"> <header>
+		<p id="logo"> </p>
+	</header></a>
+	<header id="top">
+		<ul>
+			<li>
+				<p class="menu"><a href="physique.html">Physique</a></p>
+			</li>
+			<li>
+				<p class="menu"><a href="diff_types_nuages.html">Nuages</a></p>
+			</li>
+			<li>
+				<p class="menu"><a href="http://www.meteomedia.com/meteo/canada/quebec/montreal">Météo</a></p>
+			</li>
+			<li>
+				<p class="menu"><a href="http://www.perdu.com/">Perdu?</a></p>
+			</li>
+			<li>
+				<p class="menu" id="recherche">Recherche : <input type="search" name="search" id="search"/ placeholder="ex: cumulus"></p>
+			</li>
+		</ul>
 	</header>
+
 	
     <head>
         <meta charset="utf-8" />
 		<link rel="stylesheet" href="style_princ.css" />
-		<link rel="stylesheet" href="banniere.css" />
+		<link rel="stylesheet" href="style_header.css" />
+		<link rel="stylesheet" href="style_footer.css" />
 		<!-- Le titre apparaît dans l'onglet -->
         <title>Les nuages</title>
     </head>
@@ -19,32 +41,55 @@
 		Ici vous trouverez comment se forment les <strong>nuages</strong> et quels sont les différents types de nuages que nous pouvons observer. De plus, il y a une rubrique sur les formations nuageuses de type rare. Bonne visite!</p>
 		</section>
 		<br /> <br/>
-	<section id="tdm">
-		<p <br/>
-			<h3> <a href="physique.html">Un peu de physique...</a></h3>
+		
+		<nav id="tdm">
+			<p <br/>
+				<h3> <a href="physique.html">Un peu de physique...</a></h3>
+					<ul>
+						<li> <a href="http://fr.wikipedia.org/wiki/Changement_d%27%C3%A9tat" title="Page Wikipédia">Les phases de l'eau</a> </li> 
+						<li> <a href="http://fr.wikipedia.org/wiki/Point_de_ros%C3%A9e" title="Page Wikipédia">Le point de rosée</a> </li> 
+					</ul>
+				
+				<h3 class="nuages"> <a href="diff_types_nuages.html"> Les différents types de nuages </a> </h3>
+					<ul> 
+						<li> <a href="diff_types_nuages.html#cumulus" title="Page du site"> Cumulus </a></li>
+						<li> <a href="diff_types_nuages.html#cirrus">Cirrus </a></li>
+						<li> <a href="diff_types_nuages.html#stratus">Stratus </a></li>
+						<li> <a href="diff_types_nuages.html#cumulonimbus">Cumulonimbus </a></li>
+						<li> <a href="diff_types_nuages.html#castellanus">Castellanus </a></li>
+					</ul>
+				
+				<h3 class="rare"> Les nuages rares</h3>
+			</p>
+		</nav>
+		
+		<footer>
+		<ul>
+			<li>
+				<p class="accueil">Accueil</p>
+				<a class="logo" href="#">Tout savoir sur les nuages <i>&copy; 2014</i></a>
+			</li>
+			<li>
+				<p class="contact">Contact</p>
+
 				<ul>
-					<li> <a href="http://fr.wikipedia.org/wiki/Changement_d%27%C3%A9tat" title="Page Wikipédia">Les phases de l'eau</a> </li> 
-					<li> <a href="http://fr.wikipedia.org/wiki/Point_de_ros%C3%A9e" title="Page Wikipédia">Le point de rosée</a> </li> 
+					<li><a href="contact.html">Email</a></li>
+					<li><a href="https://fr-fr.facebook.com/elisebeaudin">Facebook</a></li>
+					<li><a href="#">Téléphone</a></li>
+					<li>514-993-4853</li>
 				</ul>
-			
-			<h3 class="nuages"> <a href="diff_types_nuages.html"> Les différents types de nuages </a> </h3>
-				<ul> 
-					<li> <a href="diff_types_nuages.html#cumulus" title="Page du site"> Cumulus </a></li>
-					<li> <a href="diff_types_nuages.html#cirrus">Cirrus </a></li>
-					<li> <a href="diff_types_nuages.html#stratus">Stratus </a></li>
-					<li> <a href="diff_types_nuages.html#cumulonimbus">Cumulonimbus </a></li>
-					<li> <a href="diff_types_nuages.html#castellanus">Castellanus </a></li>
+			</li>
+			<li>
+				<p class="liens">Liens</p>
+
+				<ul>
+					<li><a href="http://www.meteomedia.com/">Météomédia</a></li>
+					<li><a href="http://fr.wikipedia.org/wiki/Portail:M%C3%A9t%C3%A9orologie">Wikipédia</a></li>
 				</ul>
-			
-			<h3 class="rare"> Les nuages rares</h3>
-		</p>
-	</section>
-	
-	<footer>
-		<p> Avez-vous des questions? <br />
-			<a href="mailto:elisebeaudin@hotmail.com">Envoyez-moi un email!</a> </p>
-    
-	</footer>
+			</li>
+		</ul>
+		</footer>
+		
 	</body>
 
 </html>

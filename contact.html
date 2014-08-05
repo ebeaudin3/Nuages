@@ -1,0 +1,91 @@
+<!-- Formulaire -->
+
+<!DOCTYPE html>
+<html>
+	<a href="Page_principale.html"> <header>
+		<p id="logo"> </p>
+	</header></a>
+	<header id="top">
+		<ul>
+			<li>
+				<p class="menu"><a href="physique.html">Physique</a></p>
+			</li>
+			<li>
+				<p class="menu"><a href="diff_types_nuages.html">Nuages</a></p>
+			</li>
+			<li>
+				<p class="menu">Météo</p>
+			</li>
+		</ul>
+	</header>
+
+    <head>
+        <meta charset="utf-8" />
+		<link rel="stylesheet" href="style_diff.css" />
+		<link rel="stylesheet" href="style_header.css" />
+		<link rel="stylesheet" href="style_footer.css" />
+		<link rel="stylesheet" href="style_contact.css" />
+		<!-- Le titre apparaît dans l'onglet -->
+        <title>Contact</title>
+    </head>
+	
+	<body>
+		<h1>Contact</h1>
+		<form method="post" action="traitement.php">
+			<p><label for="nom">Votre nom : </label><input type="texte" name="nom" id="nom" placeholder="ex : Élise"/></p>
+			<p><label for="age">Votre âge : </label><input type="texte" name="age" id="age" maxlength="2" placeholder="ex: 24"/></p>
+			<p><label for="passe">Votre mot de passe : </label><input type="password" name="passe" id="passe" maxlength="20" placeholder="*********"/></p>
+			<p><label for="pays">D'où venez-vous? </label><select name="pays" id="pays">
+				<option value="blank_country"> </option>
+				<option value="canada">Canada</option>
+				<option value="chine">Chine</option>
+				<option value="espagne">Espagne</option>
+				<option value="quebec">Québec</option>
+				<option value="qatar">Qatar</option>
+				<option value="tanzanie">Tanzanie</option>
+				<option value="autre">Autre</option>
+			</p> </select>
+			
+			
+			<p><label for="message">Votre message : </label><textarea id="message"></textarea></p>
+			<p><label for="email">Votre email : </label><input type="email" name="email" id="email" placeholder="ex: email@email.com"/></p>
+			<p><label for="check">Souhaitez-vous que vos informations restent confidentielles? : </label><input type="checkbox" name="check" id="check"></p>
+			<p><label for="math">Question de mathématique : 1 + 1 * 1 - 1 * 0 =  </label>
+				<input type="radio" name="math" id="math0"><label>0</label>
+				<input type="radio" name="math" id="math1"><label>1</label>
+				<input type="radio" name="math" id="math2"><label>2</label>
+				<input type="radio" name="math" id="math3"><label>3</label>
+			</p>
+			<p><input type="reset" value="Effacer"/><input type="submit" value="Soumettre"/></p>
+			
+		</form>
+		
+		
+		<footer>
+		<ul>
+			<li>
+				<p class="accueil">Accueil</p>
+				<a class="logo" href="Page_principale.html">Tout savoir sur les nuages <i>&copy; 2014</i></a>
+			</li>
+			<li>
+				<p class="contact">Contact</p>
+
+				<ul>
+					<li><a href="contact.html">Email</a></li>
+					<li><a href="https://fr-fr.facebook.com/elisebeaudin">Facebook</a></li>
+					<li><a href="#">Téléphone</a></li>
+					<li>514-993-4853</li>
+				</ul>
+			</li>
+			<li>
+				<p class="liens">Liens</p>
+
+				<ul>
+					<li><a href="http://www.meteomedia.com/">Météomédia</a></li>
+					<li><a href="http://fr.wikipedia.org/wiki/Portail:M%C3%A9t%C3%A9orologie">Wikipédia</a></li>
+				</ul>
+			</li>
+		</ul>
+		</footer>
+	</body>
+</html>

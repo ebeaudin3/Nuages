@@ -1,0 +1,71 @@
+/* Bannière au-dessus de chaque page */
+
+header{
+	position:relative;
+}
+
+header > p#logo{
+background: url(images/logo_site.png) no-repeat;
+background-position: left 5%;
+margin: 15px 5% 5% 0;
+background-size: 160px;
+width:110%;
+height:115px;
+}
+
+header#top{
+    height: 55px;
+    color:Darkcyan;
+    font-size:12px;
+	margin-top:15px;
+    position:scroll;
+    background-color:MidnightBlue;
+}
+
+header > ul > li{
+    width:100px;
+    float:left;
+}
+
+header ul{
+    list-style: none;
+}
+
+header .menu, header .menu a{
+	width: 100px;
+    padding:1;
+    line-height: 22px;
+    background-color: none;
+    font-weight: bold;
+    font-size: 18px;
+    color:white;
+    text-transform: uppercase;
+	opacity:0.7;
+   -webkit-transition: opacity 0.8s;
+    -moz-transition: opacity 0.8s;
+    transition: opacity 0.8s;				
+}
+
+header .menu:hover{
+	text-decoration:none;
+	opacity:1;
+}
+
+
+header a:link{
+	text-decoration:none;
+}
+
+header p.menu
+{
+	margin:15px 55px 15px 0px;
+}
+
+#recherche{
+	width:230px;
+}
+
+#search{
+	width: 100px;
+	opacity:1;
+}
